@@ -1,9 +1,33 @@
+# Top level
 .DS_Store
+*.iml
+*.idea
+
+# API
 api/log/*
 api/tmp/*
 !api/log/.keep
 !api/tmp/.keep
-
 api/.byebug_history
-*.iml
-*.idea
+
+# UI
+ui/dist
+ui/tmp
+
+# dependencies
+ui/node_modules
+ui/bower_components
+
+# misc
+ui/.sass-cache
+ui/connect.lock
+ui/coverage/*
+ui/libpeerconnection.log
+ui/npm-debug.log*
+ui/yarn-error.log
+ui/testem.log
+
+# ember-try
+ui/.node_modules.ember-try/
+ui/bower.json.ember-try
+ui/package.json.ember-try
