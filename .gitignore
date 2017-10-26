@@ -1,0 +1,9 @@
+.DS_Store
+api/log/*
+api/tmp/*
+!api/log/.keep
+!api/tmp/.keep
+
+api/.byebug_history
+*.iml
+*.idea
