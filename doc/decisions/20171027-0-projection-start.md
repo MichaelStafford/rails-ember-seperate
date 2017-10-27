@@ -14,5 +14,11 @@ In order to set this project up we needed to add the following dependecies.
 - 'database_cleaner': Cleans out the database during testing
 - 'factory_bot_rails': Creation of models to use during testing
 - 'faker': Fake data for use during seeding / testing
+- 'capybarra': Acceptance tests capable of exercising the full stack ember -> rails
+- 'selenium-webdriver': Needed for capybarra
 
 ## UI Choices
+
+##Linting
+Ember: Has JsLint built in
+Rails: Rubocop with rails integration
